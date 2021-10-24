@@ -19,6 +19,7 @@ export default {
     "react"
   ],
   rules: {
+    "no-console": "off",
     quotes: ["error", "double"], // 더블 쿼터 사용
     "no-unused-vars": "off", // 사용안한 변수 경고 중복
     "jsx-a11y/control-has-associated-label": "off", // 상호작용하는 엘리먼트에 label을 넣는다

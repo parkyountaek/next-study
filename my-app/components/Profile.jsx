@@ -39,7 +39,8 @@ const style = css`
   }
 `
 
-const Profile = ({user}) => {
+const Profile = ({ user }) => {
+  // console.log("user", user.name);
   if (!user){
     return null;
   }
